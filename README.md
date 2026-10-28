@@ -12,6 +12,16 @@ Several of the systems below run unattended today. Two are used by accounting
 practices with paying clients, which is why their source is private and why
 each has a written case study instead.
 
+### Recent
+
+- **2026-10-28** · Published [legal-sparring](https://github.com/c0llaborative/legal-sparring),
+  a LegalTech hackathon prototype built with Juan Torres.
+- **2026-10-04** · Released ContaYa and SiigoYa v1.3.6. DIAN changed its document
+  search, and downloads came back empty without an error. The fix reads every
+  page of results and marks a doubtful download as incomplete.
+- **2026-09-17** · Causación de retenciones 1.5.0. Each company now confirms
+  its own withholding criteria before any month is processed.
+
 ### Systems in use
 
 [**Causación de retenciones**](https://github.com/c0llaborative/causacion-retenciones)
@@ -26,8 +36,9 @@ invoice. Most of the disagreements turned out to be errors in the manual paper.
 Desktop tools taking a month of electronic invoices from portal download to
 posted accounting entries. A dry run over 98 real documents balanced to the
 source XML and flagged 12 of the 98 as needing a person, which is the actual
-product: a hundred manual decisions became twelve. Currently v1.3.2, installed
-at client sites.
+product: a hundred manual decisions became twelve. Installed at client sites.
+The latest version, v1.3.6, ships through
+[public releases](https://github.com/c0llaborative/accountant-releases).
 
 [**InvestIA**](https://github.com/c0llaborative/investia)
 Publishes a validated daily report on 30 Colombian issuers. Built to fail
@@ -36,6 +47,12 @@ per-instrument staleness allowances, an independent cross-check, and a watchdog
 that alerts on the run that did not happen.
 
 ### Code you can read
+
+[**legal-sparring**](https://github.com/c0llaborative/legal-sparring)
+Prepares a lawyer for a civil hearing under Colombia's Código General del
+Proceso. From the case file, it rebuilds the other side's theory of the case.
+Every point cites the folio of the record it rests on. Hackathon prototype,
+built with Juan Torres.
 
 [**ats-harvest**](https://github.com/c0llaborative/ats-harvest)
 Reads job postings from Greenhouse, Lever and Ashby into one normalized schema.
@@ -72,6 +89,6 @@ DevTools Protocol. PDF extraction and in-place PDF rewriting with PyMuPDF.
 Scheduled and unattended jobs, and the monitoring that tells you when one of
 them has quietly stopped.
 
-### Elsewhere
+### Contact
 
-[LinkedIn](https://www.linkedin.com/in/juan-sebastian-leon-molina/) · sebastianleon941@gmail.com
+[LinkedIn](https://www.linkedin.com/in/juan-sebastian-leon-molina/)
